@@ -21,7 +21,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 public class Alerts
 {
     private static final Logger LOG = LoggerFactory.getLogger( Alerts.class );
-    private static final String DEFAULT_CREDENTIALS_LOCATION = "/sqscredentials2.properties";
+    private static final String DEFAULT_CREDENTIALS_LOCATION = "/sqscredentials.properties";
     private String queueName;
     private String queueUrl;
     private AmazonSQS queueService;
